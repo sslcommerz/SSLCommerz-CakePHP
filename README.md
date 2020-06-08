@@ -1,8 +1,10 @@
-# SSLCOMMERZ Payment Gateway Integration using CakePHP 3.6
-Requires : PHP 5.6-7.2 and Mysql,
-License: GPLv2 or later, 
-Contributors: C.M.Sayedur Rahman,
-	          cmsayed@gmail.com
+# SSLCOMMERZ - CakePHP 3.6
+ 
+### Prerequisites
+
+1. PHP 5.6-7.2 and Mysql.
+2. cURL php extension.
+3. [Sandbox Account](https://developer.sslcommerz.com/registration/ "SSLCommerz Sandbox Registration")
 
 
 ##  Description 
@@ -57,7 +59,7 @@ And, for _Pay Now_ button, use the below code:
 ## Run the project
 
 1. First create your Sanbox(Test Environment) store account from below url. After registration you will get two mail. One for Store_id and Store_password. Another one for Report panel access.	
-   https://developer.sslcommerz.com/registration/
+   [Sandbox Account](https://developer.sslcommerz.com/registration/ "SSLCommerz Sandbox Registration")
    Note: For live store id or account you have to communicate with us. Our mail address: operation@sslcommerz.com
 
 2. Then give the store_id and store_password in SSLCommerz.php page.
@@ -75,11 +77,17 @@ And, for _Pay Now_ button, use the below code:
 5. For EasyCheckout integration example, please check the `http://yourdomain.com/example1` and for hosted checkout example, please check the `http://yourdomain.com/example2` URL.
 
 
-== Help URL==
-	1. https://developer.sslcommerz.com/docs.html :URL to start integrate SSLCOMMERZ as a Developer
-	2. https://developer.sslcommerz.com/registration/: URL to Create Account in Sandbox
+## Help URL
+
+  1. [Developer Page](https://developer.sslcommerz.com/doc/v4/ "Developer Page")
+  2. IPN Setup
+
+![IPN1](screenshot-1.png)
+
+![IPN2](screenshot-2.png)
 	
 ## Check List After Making the site Live or Connect with Live SSLCOMMERZ
+
 Customer need to do a live transaction to check the full process. After the transaction below things need to ensure 
 1. Transaction is showing successful in SSLCOMMERZ Panel (https://report.sslcommerz.com)  
 2. Transaction details are same in SSLCOMMERZ Panel (https://report.sslcommerz.com) and Customer site admin Panel.
@@ -88,5 +96,13 @@ Customer need to do a live transaction to check the full process. After the tran
 
 Note: In the gateway you may not found Banks. After getting live store id, it takes 10 to 15 working days to enable these. You may follow up your KAM(Key Account Manager).
 
-	
+## Contributors
+
+> Cm. Saydur Rahman 
+
+> Prabal Mallick
+
+> Md. Rakibul Islam
+
+> integration@sslcommerz.com
 
